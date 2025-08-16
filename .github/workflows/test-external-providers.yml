@@ -16,7 +16,7 @@ jobs:
         # container and point 'uv pip install' to the correct path...
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Install uv
         uses: astral-sh/setup-uv@v5
